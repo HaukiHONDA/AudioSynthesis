@@ -1,0 +1,1 @@
+python train_audiovisual.py --video_path datasets/video/obama.mp4 --experiment_name Audiovisual_example_run --save_freq 2000 --test_path example/input_3_MartinLutherKing.wav --batch_size 4 --save_dir ./saved_models/ --use_256 --load_model ./saved_models/VC_example_run/Epoch600_Iter00030000.pkl
