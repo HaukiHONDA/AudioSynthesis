@@ -1,1 +1,0 @@
-python train_audio.py --data_path datasets/celebaudio/obama.wav --experiment_name VC_example_run --save_freq 2000 --test_path example/input_3_MartinLutherKing.wav  --batch_size 4 --save_dir ./saved_models/
