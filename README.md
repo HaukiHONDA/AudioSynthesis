@@ -8,3 +8,10 @@ ipynb shows getting target speaker features
 We benefit from ESPnet and Multilingual TTS papers for the translation part
 
 translation_audiosynthesis.ipynb shows how we generated outputs in the Translation_project
+
+
+<img width="978" alt="Obama_loss" src="https://user-images.githubusercontent.com/60038634/113201994-80cc6680-926a-11eb-8c93-dc9bc881b481.png">
+
+
+
+<img width="1002" alt="Oprah_loss" src="https://user-images.githubusercontent.com/60038634/113202034-8de95580-926a-11eb-8bd3-ede26ceb4538.png">
