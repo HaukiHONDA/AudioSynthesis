@@ -29,5 +29,5 @@ For Audiosynthesis, we have about 47 minutes audio of Barack Obama [https://www.
 ### Oprah's voice convergence loss
 <img width="500" alt="Oprah_loss" src="https://user-images.githubusercontent.com/60038634/113202034-8de95580-926a-11eb-8bd3-ede26ceb4538.png">
 
-### You can find our speech inputs and outputs in the Translation_project folder.
+### You can find our speech inputs and outputs in the Translation_project folder below.
 https://github.com/Student-Research-Project/Speech-Synthesis-and-Translation-via-Exemplar-Autoencoders/tree/main/Translation_project
