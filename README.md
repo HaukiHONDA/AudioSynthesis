@@ -5,10 +5,12 @@ In this report, we presented a way to make our target speaker utter any translat
 Audiosynthesis_Obama.ipynb and Audiosynthesis_Oprah.ipynb show getting target speaker features. Also, they show voice conversion graphs when opened in Colab.
 
 ### Translation part
-We benefit from ESPnet and Multilingual TTS papers for the translation part
+#### We benefit from ESPnet and Multilingual TTS papers for the translation part
+
+#### translation_audiosynthesis.ipynb shows how we generated outputs in the Translation_project (From English speech input to French speech output with target speaker voice)
+#### The file is availabe below as colab 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1rZI0rysNt7CZDea7TmJ_--chRy-O1bcg?usp=sharing)
 
-translation_audiosynthesis.ipynb shows how we generated outputs in the Translation_project (From English speech input to French speech output with target speaker voice)
 
 ### Data Pipeline and Foundation
 For the translation part, we have a pretrained model on the Librispeech dataset which contains 236 hours of English read speech with its corresponding text in English and French translation. And moreover we added the English to spanish pretrained model based on the Fisher and Callhome spanish dataset as the multilingual translation choice. The Fisher and Callhome spanish dataset contains 170-hours of Spanish read speech with its corresponding Spanish text transcription and English text. 
