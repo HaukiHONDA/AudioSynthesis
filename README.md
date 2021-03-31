@@ -14,13 +14,16 @@ For the translation part, we have a pretrained model on the Librispeech dataset 
 
 For Audiosynthesis, we have about 47 minutes audio of Barack Obama [https://www.youtube.com/watch?v=ji6pl5Vwrvk], about 11 minutes audio of Bill Clinton’s speech [ https://www.youtube.com/watch?v=eYTq8MOIJvo] and about 50 minutes audio of Oprah Winfrey[https://www.youtube.com/watch?v=GR_7X0exvh8]. We trained the targeted speaker model with 2000 iterations of batch-size 8 and epochs 10. As the machine setting, we used the Google Colab pro for the experiment. So we could access either T4 or P100GPU with high memory. 
 
+### The experiment 1 with Obama's audio dataset 
+#### We implemented the experiment as below. 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/HaukiHONDA/8ecbdf97314aad8ff92d2acef1754816/29-march_obama_02.ipynb)
 
 
 ### Obama's voice convergence loss
 <img width="500" alt="Obama_loss" src="https://user-images.githubusercontent.com/60038634/113201994-80cc6680-926a-11eb-8c93-dc9bc881b481.png">
 
-
+### The experiment 2 with Oprah's audio dataset 
+#### We implemented the experiment as below. 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/gist/HaukiHONDA/ad1a63158902b3e30435e72f50ebaf4c/29-march_oprah_02.ipynb)
 
 ### Oprah's voice convergence loss
